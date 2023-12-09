@@ -1,0 +1,16 @@
+# Copyright (c) 2020 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+if SHIELD_INTRO_LEFT
+
+config ZMK_KEYBOARD_NAME
+	default "Intro"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+	default y
+
+endif
+
+config ZMK_SPLIT
+	default y
+
